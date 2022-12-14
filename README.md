@@ -1,2 +1,2 @@
-# Nonlinear-Regression
+## Nonlinear-Regression
   本文重点介绍了非线性回归的重要方法：样条回归和局部回归；并将它们与最小二乘回归的区别进行了分析
