@@ -44,7 +44,7 @@ def KernelSmoothing(
     return yr
 
 
-data = pd.read_csv("C:\\Users\\16548\\Desktop\\导论作业\\T2\\insurance.csv")
+data = pd.read_csv(".../insurance.csv")
 y = data["charges"]
 x = data.drop(labels="charges", axis=1)
 x = pd.get_dummies(x, columns=["sex", "smoker", "region"])
