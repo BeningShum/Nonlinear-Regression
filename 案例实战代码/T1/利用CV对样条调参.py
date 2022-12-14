@@ -3,7 +3,7 @@ import numpy as np  # 一些科学计算工具
 from sklearn.model_selection import KFold  # 用于交叉验证划分数据集
 import matplotlib.pyplot as plt  # 用于画图的库
 
-data = pd.read_csv("……/mcycle.csv")
+data = pd.read_csv(".../mcycle.csv")
 x = data["times"]
 y = data["accel"]
 kf = KFold(n_splits=5, random_state=2022, shuffle=True)
