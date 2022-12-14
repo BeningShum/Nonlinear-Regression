@@ -121,7 +121,7 @@ def LocalPolynomialRegression(
     return yr
 
 
-data = pd.read_csv("C:\\Users\\16548\\Desktop\\导论作业\\T1\\mcycle.csv")
+data = pd.read_csv("……/mcycle.csv")
 x = data["times"]
 y = data["accel"]
 # 导入数据，times是解释变量，accel是响应变量
